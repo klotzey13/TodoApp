@@ -17,7 +17,7 @@ requirements:
 	venv\Scripts\python -m pip freeze > requirements.txt
 
 run:
-	@venv\Scripts\python main.py
+	uvicorn main:app --reload
 
 clean:
 	@echo "Cleaning up Python cache and build artifacts..."

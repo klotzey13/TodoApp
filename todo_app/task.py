@@ -1,10 +1,12 @@
-class Task:
-    def __init__(self, description, completed=False):
-        self.description = description
-        self.completed = completed
+from pydantic import BaseModel, Field
+from uuid import UUID, uuid4
 
-    def mark_completed(self):
-        self.completed = True
-        print(f"Task '{self.description}' marked as completed.")
+class Task(BaseModel):
+    """Represents a task with a unique ID, description, and completion status."""
+    id: UUID = Field(default_factory=uuid4)
+    description: str
+    completed: bool = False
 
-    
+class TaskCreate(BaseModel):
+    """A model for creating a new task, which only requires a description."""
+    description: str

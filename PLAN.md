@@ -69,11 +69,11 @@ A functional To-Do list application where users can add, view, mark as complete,
 * [done] Make Git commit: "Added delete_task functionality."
 
 #### Core - Main Application Loop
-* [ ] Implement a `while True` loop that continuously presents options to the user (e.g., `(a)dd, (v)iew, (m)ark complete, (d)elete, (q)uit`).
-* [ ] Use `input()` to get user choices.
-* [ ] Use `if`/`elif`/`else` to call the appropriate functions based on user input.
-* [ ] Add a way to break the loop when the user chooses to quit.
-* [ ] Make Git commit: "Created main application loop."
+* [done] Implement a `while True` loop that continuously presents options to the user (e.g., `(a)dd, (v)iew, (m)ark complete, (d)elete, (q)uit`).
+* [done] Use `input()` to get user choices.
+* [done] Use `if`/`elif`/`else` to call the appropriate functions based on user input.
+* [done] Add a way to break the loop when the user chooses to quit.
+* [done] Make Git commit: "Created main application loop."
 
 #### Persistence - Basic File I/O
 * [ ] Create a function `load_tasks()` that reads tasks from a text file (e.g., `tasks.txt`).
