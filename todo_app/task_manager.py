@@ -25,3 +25,20 @@ class TaskManager:
             self.tasks[task_index-1].mark_completed()
         else:
             print("Invalid task number.")
+
+    def delete_task(self):
+        self.view_tasks()
+        if not self.tasks:
+            return # No tasks to delete
+
+        try:
+            task_number_str = input("Enter the task number to delete: ")
+            task_index = int(task_number_str) - 1
+            
+            if 0 <= task_index < len(self.tasks):
+                removed_task = self.tasks.pop(task_index)
+                print(f"Task '{removed_task.description}' deleted successfully!")
+            else:
+                print("Invalid task number.")
+        except ValueError:
+            print("Invalid input. Please enter a number.")

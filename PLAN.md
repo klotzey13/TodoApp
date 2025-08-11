@@ -59,14 +59,14 @@ A functional To-Do list application where users can add, view, mark as complete,
 * [done] Validate the input (is it a number? is it within range?).
 * [done] Update the status of the selected task in the `tasks` list.
 * [done] Update `view_tasks()` to display the completed status clearly (e.g., `[X] Task`, `[ ] Task`).
-* [ ] Make Git commit: "Implemented mark_task_complete functionality."
+* [done] Make Git commit: "Implemented mark_task_complete functionality."
 
 #### Core - Delete Task Feature
-* [ ] Create a function `delete_task()`.
-* [ ] Prompt the user for the number of the task to delete.
-* [ ] Validate the input.
-* [ ] Remove the selected task from the `tasks` list (be careful with list indexing after deletion).
-* [ ] Make Git commit: "Added delete_task functionality."
+* [done] Create a function `delete_task()`.
+* [DONE] Prompt the user for the number of the task to delete.
+* [DONE] Validate the input.
+* [done] Remove the selected task from the `tasks` list (be careful with list indexing after deletion).
+* [done] Make Git commit: "Added delete_task functionality."
 
 #### Core - Main Application Loop
 * [ ] Implement a `while True` loop that continuously presents options to the user (e.g., `(a)dd, (v)iew, (m)ark complete, (d)elete, (q)uit`).
