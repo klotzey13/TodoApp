@@ -17,7 +17,7 @@ requirements:
 	venv\Scripts\python -m pip freeze > requirements.txt
 
 run:
-	@venv\Scripts\python todo_app.py
+	@venv\Scripts\python main.py
 
 clean:
 	@echo "Cleaning up Python cache and build artifacts..."

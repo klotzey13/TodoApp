@@ -38,27 +38,27 @@ A functional To-Do list application where users can add, view, mark as complete,
 #### Core - Add Task Feature
 * [done] Define an empty list `tasks` at the top of `main.py` to hold your To-Do items.
 * [done] Create a function `add_task()` that takes no arguments.
-* [ ] Inside `add_task()`, use `input()` to get a task description from the user.
-* [ ] Append the new task description (as a string) to the `tasks` list.
-* [ ] Add a temporary call to `add_task()` in the main part of the script for testing.
-* [ ] Test `add_task()` by running the script.
-* [ ] Make Git commit: "Implemented basic add_task function."
+* [done] Inside `add_task()`, use `input()` to get a task description from the user.
+* [done] Append the new task description (as a string) to the `tasks` list.
+* [done] Add a temporary call to `add_task()` in the main part of the script for testing.
+* [done] Test `add_task()` by running the script.
+* [done] Make Git commit: "Implemented basic add_task function."
 
 #### Core - View Tasks Feature
-* [ ] Create a function `view_tasks()`.
-* [ ] Inside `view_tasks()`, loop through the `tasks` list.
-* [ ] For each task, print it with an index number (e.g., "1. Buy groceries").
-* [ ] Update the main application loop (or add a temporary call) to allow calling `view_tasks()`.
-* [ ] Test `view_tasks()` after adding a few tasks.
-* [ ] Make Git commit: "Added view_tasks functionality."
+* [done] Create a function `view_tasks()`.
+* [done] Inside `view_tasks()`, loop through the `tasks` list.
+* [done] For each task, print it with an index number (e.g., "1. Buy groceries").
+* [done] Update the main application loop (or add a temporary call) to allow calling `view_tasks()`.
+* [done] Test `view_tasks()` after adding a few tasks.
+* [done] Make Git commit: "Added view_tasks functionality."
 
 #### Core - Mark Task Complete Feature
-* [ ] Decide on a simple way to represent "completed" status for each task (e.g., store tasks as `[description, is_completed_boolean]` pairs in the list, or prefix with `[X]` when viewing).
-* [ ] Create a function `mark_task_complete()`.
-* [ ] Prompt the user for the number of the task to mark complete.
-* [ ] Validate the input (is it a number? is it within range?).
-* [ ] Update the status of the selected task in the `tasks` list.
-* [ ] Update `view_tasks()` to display the completed status clearly (e.g., `[X] Task`, `[ ] Task`).
+* [done] Decide on a simple way to represent "completed" status for each task (e.g., store tasks as `[description, is_completed_boolean]` pairs in the list, or prefix with `[X]` when viewing).
+* [done] Create a function `mark_task_complete()`.
+* [done] Prompt the user for the number of the task to mark complete.
+* [done] Validate the input (is it a number? is it within range?).
+* [done] Update the status of the selected task in the `tasks` list.
+* [done] Update `view_tasks()` to display the completed status clearly (e.g., `[X] Task`, `[ ] Task`).
 * [ ] Make Git commit: "Implemented mark_task_complete functionality."
 
 #### Core - Delete Task Feature
