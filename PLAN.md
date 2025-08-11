@@ -27,17 +27,17 @@ A functional To-Do list application where users can add, view, mark as complete,
 ### Actionable Steps:
 
 #### Setup
-* [ ] Create a new project folder `python-todo-app`.
-* [ ] Initialize a Git repository in `python-todo-app` (e.g., `git init`).
-* [ ] Create a virtual environment `venv` in the project folder (e.g., `python -m venv venv`).
-* [ ] Activate the virtual environment (e.g., `source venv/bin/activate` on Linux/macOS, or `.\venv\Scripts\activate` on Windows PowerShell).
-* [ ] Create `main.py` (or `todo_app.py`) file for your application code.
-* [ ] Add this `PLAN.md` file to the project folder.
-* [ ] Make initial Git commit: "Project setup and plan."
+* [done] Create a new project folder `python-todo-app`.
+* [done ] Initialize a Git repository in `python-todo-app` (e.g., `git init`).
+* [done] Create a virtual environment `venv` in the project folder (e.g., `python -m venv venv`).
+* [done] Activate the virtual environment (e.g., `source venv/bin/activate` on Linux/macOS, or `.\venv\Scripts\activate` on Windows PowerShell).
+* [done] Create `main.py` (or `todo_app.py`) file for your application code.
+* [done] Add this `PLAN.md` file to the project folder.
+* [done] Make initial Git commit: "Project setup and plan."
 
 #### Core - Add Task Feature
-* [ ] Define an empty list `tasks` at the top of `main.py` to hold your To-Do items.
-* [ ] Create a function `add_task()` that takes no arguments.
+* [done] Define an empty list `tasks` at the top of `main.py` to hold your To-Do items.
+* [done] Create a function `add_task()` that takes no arguments.
 * [ ] Inside `add_task()`, use `input()` to get a task description from the user.
 * [ ] Append the new task description (as a string) to the `tasks` list.
 * [ ] Add a temporary call to `add_task()` in the main part of the script for testing.
